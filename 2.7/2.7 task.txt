@@ -1,0 +1,25 @@
+﻿1. Implement search for recipes:
+* Search ingredients, return recipes that use that ingredient. 
+* Search recipe name, return recipes with that name or that word in the name.
+
+
+2. Data Analysis:
+Bar Chart 
+   * Y-axis will have the # of Recipes with an ingredient
+   * X-axis will have the names of each ingredient
+   * It will show all ingredients / Recipes on the main page, but as a user searches Recipes it will change to only apply to the recipes that are included in the search results.
+   
+3. Execution Flow:
+User Journey
+1. Open webpage (http://127.0.0.1:8000/)
+2. Click to login (login/)
+3. Use credentials to login (list/)
+4. Search recipes by name
+5. View search results (list/?search_name=grilled_cheese&search_ingredient=)
+6. Click on recipe available(list/1)
+7. Go back to previous page
+8. Click ‘Back to all recipes’
+9. Search recipes by ingredient 
+10. View search results (list/?search_name=&search_ingredient=salt)
+11. Click logout 
+12. Logout screen showing with option to log back in (logout/)
